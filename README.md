@@ -20,7 +20,10 @@ Catcher supports Android, iOS, Web, Linux, Windows and MacOS platforms.
 Add this line to your **pubspec.yaml**:
 ```yaml
 dependencies:
-  catcher: ^0.7.0
+  catcher:
+    git:
+      url: https://github.com/barahijawi/catcher
+      ref: master 
 ```
 
 Then run this command:
